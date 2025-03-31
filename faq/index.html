@@ -15,6 +15,10 @@
   <link rel="manifest" href="../site.webmanifest">
   <link rel="apple-touch-icon" href="../icon.png">
   <!-- Place favicon.ico in the root directory -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!--- Google Fonts Open Sans and Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="../css/normalize.css">
   <link rel="stylesheet" href="../css/main.css">
@@ -22,22 +26,26 @@
   <meta name="theme-color" content="#fafafa">
 </head>
 
-<body>
+<<body>
   <header>
-    <div class="content-wrapper"> <!-- container for header -->
+    <div class="content-wrapper">
+      <!-- container for header -->
       <figure>
-        <a href="../index.html"><img src="img/unpluggedlogo.png" alt="unplugged logo"></a>
+        <a href="#">
+          <img src="img/unpluggedlogo.png" alt="unplugged logo" />
+        </a>
       </figure>
-      <div class="header-divider"><!--logo and nav  -->
-        <nav> 
-          <ul>
-            <li><a href="#" target="_blank">FAQ</a></li>
-            <li><a href="../about/index.html" target="blank">About</a></li>
-          </ul>
-        </nav>
-      </div>  
+      <div class="header-divider"></div>
+      <nav>
+        <ul>
+          <li><a href="#" target="_blank">FAQ</a></li>
+          <li><a href="../about/index.html" target="blank">About</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
+
+
   <main>
     <section class="faq-section">
       <div class="content-wrapper">
@@ -63,31 +71,52 @@
       </div>
     </section>
   </main>
+
   <footer>
-    <div class="content-wrapper"> <!--container dark grey background -->
-      <div class="footer-content">
-        <div class="contact">
-          <h4>Contact</h4>
-          <address>
-            <p>
-              555-555-5555<br>
-              hello@unplugged.com
-            </p>
-          </address>
-        </div>
-        <div class="social">
-          <h4>Social</h4>
-          <div class="social-icons">
-          <p><a href="https://www.facebook.com/unplugged" target="blank" rel="noopener"></a></p>
-          <p> </p><!-- add other social links -->
+      <div class="content-wrapper">
+        <div class="footer-content">
+          <div class="contact">
+            <h4>Contact</h4>
+            <address>
+              <p>
+                555-555-5555<br />
+                hello@unplugged.com
+              </p>
+            </address>
           </div>
-        </div> <!-- footer content ends-->
-        <div class="copyright">
-          <p>Copyright 2025| Unplugged</p>
+          <div class="social">
+            <h4>Social</h4>
+            <div class="social-icons">
+              <p>
+                <a
+                  href="https://www.facebook.com/skillcrush"
+                  target="blank"
+                  rel="noopener"
+                ></a>
+              </p>
+              <p>
+                <a
+                  href="https://www.twitter.com/skillcrush"
+                  target="blank"
+                  rel="noopener"
+                ></a>
+              </p>
+              <p>
+                <a
+                  href="https://www.instagram.com/skillcrush"
+                  target="blank"
+                  rel="noopener"></a>
+              </p>
+            </div>
+          </div>
+          <!-- footer content ends-->
+          <div class="copyright">
+            <p>Copyright 2025| Unplugged</p>
+          </div>
         </div>
-      </div> <!-- footer content-wrapper ends" -->
-    </div>
-  </footer>
+        <!-- footer content-wrapper ends" -->
+      </div>
+    </footer>
   
   <!-- Add your site or application content here -->
   <p>Hello world! This is HTML5 Boilerplate.</p>
