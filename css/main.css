@@ -298,14 +298,14 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  align-items: flex-start;
+  /*align-items: flex-start;*/
   /*width: 100%;*/
 }
 
 .features article {
-  /*display: flex;
-  justify-content: center;*/
-  width: 63%;
+  display: flex;
+  justify-content: center;
+  width: %;
   margin: 30px 0;
   /*padding: 40px;*/
 }
@@ -484,15 +484,15 @@ aside .content-wrapper .form {
 .features article {
   display: flex;
   align-items: center;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   flex-basis: 50%;
 }
 
 .features-items article {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
   flex-basis: 45%;
 }
 /*.featuers .content-wrapper {
@@ -505,8 +505,8 @@ aside .content-wrapper .form {
 }*/
 .features .features-items {
  display: flex;
- justify-content: space-between;
- flex-flow: column wrap;
+ justify-content: center;
+ flex-flow: row wrap;
   width: 49%;
 }
 .features .features-item-description {
@@ -600,6 +600,9 @@ footer .copyright {
 /*====================DESKTOP Styles==================*/
  @media only screen and (min-width: 1200px){
  
+  .content-wrapper {
+    max-width: 960px;
+  }
 /*-Hero Area-*/
 /*- Aside- */
 aside .content-wrapper {
