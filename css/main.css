@@ -507,7 +507,7 @@ aside .content-wrapper .form {
  display: flex;
  justify-content: center;
  flex-flow: row wrap;
-  width: 49%;
+  width: 100%;
 }
 .features .features-item-description {
   width: 50%;
@@ -603,22 +603,34 @@ footer .copyright {
   .content-wrapper {
     max-width: 960px;
   }
+  header {
+    padding: 15px 0;
+  }
+
 /*-Hero Area-*/
+.hero-area h1 {
+  width: 80%;
+}
+
 /*- Aside- */
 aside .content-wrapper {
   margin: 50px 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-content: flex-start;
+
 }
 aside .content-wrapper .form-description, 
 aside .content-wrapper .form {
-  width: 40%;
+  width: 30%;
   margin: 0;
 }
 /*- Features -*/
+.features h2 {
+  width: 90%;
+}
 .features article {
-
+  flex-basis: 33%;
 }
 .features .features-item-description {
   width: 49%;
@@ -628,15 +640,18 @@ aside .content-wrapper .form {
 
 }
 .reviews article div {
-
+  width: 42%;
 }
+
 /*- Footer-*/
 footer .content-wrapper {
   width: 65%;
   margin: 100px 0px;
 }
 .footer-content {
-
+  display: flex;
+  justify-content: space-around;
+  align-content: row wrap;
 }
 .footer .contact {
   margin-bottom: 0;
@@ -644,6 +659,16 @@ footer .content-wrapper {
 footer .copyright {
   width: 65%;
 }
+}
+/*--------About ----------*/
+.mission h2,
+.contact-section .content-wrapper h2 {
+  width: 95%;
+}
+/*------------FAQ------------*/
+
+.faq h2 {
+  width: 100%;
 }
 /* ==========================================================================
    Helper classes
